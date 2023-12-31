@@ -1,5 +1,5 @@
 import React from 'react'
-import service from '../Images/service.jpg'
+import service from '../../Images/service.jpg'
 
 function Services() {
     return (

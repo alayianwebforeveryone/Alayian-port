@@ -1,5 +1,5 @@
 import React from 'react'
-import bannImg from '../Images/Bannerimg.jpg'
+import bannImg from '../../Images/Bannerimg.jpg'
 
 function Home() {
 

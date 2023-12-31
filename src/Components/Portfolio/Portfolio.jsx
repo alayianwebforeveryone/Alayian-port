@@ -1,7 +1,7 @@
 import React from 'react'
-import portOne from '../Images/portfolio1.png'
-import portTwo from '../Images/portfolio2.png'
-import portThree from '../Images/portfolio3.png'
+import portOne from '../../Images/portfolio1.png'
+import portTwo from '../../Images/portfolio2.png'
+import portThree from '../../Images/portfolio3.png'
 
 function Portfolio() {
     return (
