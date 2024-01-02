@@ -10,18 +10,18 @@ function Contact() {
             >
                 <h2 class="text-center text-white text-4xl font-bold py-28">Contact us</h2>
             </div>
-            <div class="flex justify-center gap-16  py-9 bg-[#a4e1f7]">
-                <div class="w-[20%] bg-[#faf5fb]  py-3 shadow-xl rounded-xl">
+            <div class="flex md:flex-row flex-col  justify-center md:gap-16 gap-8 items-center  py-9 bg-[#a4e1f7]">
+                <div class="w-[70%] md:w-[20%] bg-[#faf5fb]  py-3 shadow-xl rounded-xl">
                     <div class="w-9 mx-auto text-5xl"> <ion-icon name="desktop-outline"></ion-icon></div>
                     <p class="text-center  mt-3">+92 346 8745333</p>
                     <p class="text-center text-sm  mt-5">Monday to Friday 9:00 am to 6:pm </p>
                 </div>
-                <div class="w-[20%] bg-[#faf5fb]  py-3 shadow-xl rounded-xl">
+                <div class="w-[70%] md:w-[20%] bg-[#faf5fb]  py-3 shadow-xl rounded-xl">
                     <div class="w-9 mx-auto text-5xl"> <ion-icon name="desktop-outline"></ion-icon></div>
                     <p class="text-center  mt-3">alayiansaeed@gamil.com</p>
                     <p class="text-center text-sm  mt-5">Contact me any time! </p>
                 </div>
-                <div class="w-[20%] bg-[#faf5fb]  py-3 shadow-xl rounded-xl">
+                <div class="w-[70%] md:w-[20%] bg-[#faf5fb]  py-3 shadow-xl rounded-xl">
                     <div class="w-9 mx-auto text-5xl"> <ion-icon name="desktop-outline"></ion-icon></div>
                     <p class="text-center  mt-3">Location</p>
                     <p class="text-center text-sm  mt-5">  23 Main Street

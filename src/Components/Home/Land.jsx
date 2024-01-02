@@ -36,10 +36,10 @@ function Home() {
                     adipisicing elit. Quibusdam iusto voluptatem,
                     necessitatibus voluptate, repellat natus laudantium sint praesentium non ratione temporibus
                     eligendi veniam eaque consequatur! Libero sunt illo nulla necessitatibus!</p>
-                <div class="py-2 px-2 border rounded-3xl w-[60%] flex justify-between mx-auto bg-[#101434]">
+                <div class=" text-sm rounded-2xl py-2 px-2  border md:rounded-3xl  border-2xl  md:w-[60%] w-[80%] flex justify-between mx-auto bg-[#101434]">
                     <input type="text" placeholder={"Enter your Emial Address"}
-                        class="w-[70%] rounded-3xl bg-transparent outline-none text-white   text-lg " />
-                    <button class="px-4 py-3 bg-[#CECDDF] rounded-3xl">Get Started</button>
+                        class="w-[70%] rounded-3xl bg-transparent outline-none text-white   md:text-lg " />
+                    <button class="md:px-4 md:py-3 bg-[#CECDDF] md:rounded-3xl rounded-xl">Get Started</button>
                 </div>
             </div>
         </>

@@ -7,12 +7,12 @@ function Services() {
 
         >
 
-            <div class=" w-full bg-[#7da2ea] pb-10 "
+            <div className="w-full bg-[#7da2ea] pb-10 "
                 style={{
                     background: "linear-gradient(90deg, rgba(113,8,125,1) 0%, rgba(93,176,219,1) 56%)"
                 }}
             >
-                <h2 class="text-center text-white text-4xl font-bold py-28">Our Services</h2>
+                <h2 className="text-center text-white text-4xl font-bold py-28">Our Services</h2>
 
                 <div className="flex justify-center md:gap-48  gap-5 w-full  "  >
                     <div className="pt-16 ">
@@ -53,21 +53,22 @@ function Services() {
             </div>
 
 
-            <div class="flex mt-10 justify-center gap-48 py-24 w-[85%] mx-auto  rounded-3xl shadow-xl"
+            <div className="flex md:flex-row flex-col items-center mt-10 justify-center md:gap-48  gap-10 py-24 w-[85%] mx-auto  rounded-3xl shadow-xl"
                 style={{
                     background: "linear-gradient(90deg, rgba(113,8,125,1) 0%, rgba(93,176,219,1) 56%)"
                 }}
             >
 
 
-                <div class="w-[30%] ">
-                    <p class="uppercase text-3xl ] font-bold">Why Should you <br /> chose us ?</p>
+                <div className="md:w-[30%] w-[80%] ">
+                    <p className="uppercase text-3xl  font-bold hidden ">Why Should you <br /> chose us ?</p>
+                    <p className="uppercase text-3xl font-bold text-center ">Why Should you  chose us ?</p>
                     <p className='mt-8'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis maxime exercitationem quaerat,
                         omnis obcaecati repellat nemo neque reprehenderit ipsam, quibusdam quas fugiat a
                         vitae qui nihil commodi. Aliquam, at ab?</p>
                 </div>
-                <div class="w-[30%]">
-                    <img src={service} alt="" />
+                <div className="w-[60%] md:w-[30%]">
+                    <img src={service} alt=""  />
                 </div>
             </div>
 

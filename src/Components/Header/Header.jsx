@@ -4,7 +4,7 @@ import logo from '../../Images/logo.png'
 
 function Header() {
     return (
-        <div className="md:flex    md:flex-row  flex justify-between md:justify-around text-white md:w-[100%] mx-auto w-[90%] 
+        <div className="md:flex    md:flex-row  flex justify-between md:justify-around text-white md:w-[100%] mx-auto w-[100%] 
         items-center py-5 h-auto  "
             style={{
                 // borderBottom: "1px solid gray",
