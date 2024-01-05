@@ -1,5 +1,6 @@
 import React from 'react'
 import service from '../../Images/service.jpg'
+import { motion } from 'framer-motion'
 
 function Services() {
     return (
@@ -7,13 +8,13 @@ function Services() {
 
         >
 
-            <div className="w-full bg-[#7da2ea] pb-10 "
+            <div className="w-full bg-[#7da2ea]  pt-14 sm:pt-0 "
                 style={{
                     background: "linear-gradient(90deg, rgba(113,8,125,1) 0%, rgba(93,176,219,1) 56%)"
                 }}
             >
-                <h2 className="text-center text-white text-4xl font-bold py-28">Our Services</h2>
-
+                <h2 className="text-center text-white text-3xl md:text-3xl font-bold py-28">Our Services</h2>
+           </div>
                 <div className="flex justify-center md:gap-48  gap-5 w-full  "  >
                     <div className="pt-16 ">
                         <p className="font-bold text-3xl md:text-4xl ">What we <br /> Offer ?</p>
@@ -24,30 +25,60 @@ function Services() {
                             quam culpa. Totam voluptatem expedita error.</p>
                     </div>
                 </div>
-            </div>
+           
             <div className='bg-[#A0E5EF]  py-10'
-                
+
             >
-                
+
                 <div className="flex justify-center gap-10  flex-wrap md:flex-nowrap pb-12"  >
-                    <div className="border w-[40%] md:w-[25%] lg:w-[20%] bg-[#edf5f7] text-black rounded-3xl py-5 ">
+                    <motion.div
+                        whileHover={{
+                            scale: 1,
+                            border: "1px solid purple"
+                        }}
+                        //   transition = {{duration: 0.5}}
+                        className="border w-[40%] md:w-[25%] lg:w-[20%] bg-[#edf5f7] text-black rounded-3xl py-5 ">
                         <div className="w-9 mx-auto text-5xl"> <ion-icon name="desktop-outline"></ion-icon></div>
-                        <p className="text-center text-[#4C4C95] mt-3">Service Name</p>
+                        <motion.p
+                            whileHover={{
+                                color: "#4C4C95"
+                            }}
+                            className="text-center text-[blue]  mt-3  cursor-pointer">Service Name</motion.p>
                         <p className="text-center text-sm text-black mt-5">Lorem ipsum dolor sit amet consectetur adipisicing elit.
                             Sed quo temporibus </p>
-                    </div>
-                    <div className="border  w-[40%]  md:w-[25%] lg:w-[20%] bg-[#edf5f7] text-black rounded-3xl py-5">
+                    </motion.div>
+                    <motion.div
+                        whileHover={{
+                            scale: 1,
+                            border: "1px solid purple"
+                        }}
+                        //   transition = {{duration: 0.5}}
+                        className="border w-[40%] md:w-[25%] lg:w-[20%] bg-[#edf5f7] text-black rounded-3xl py-5 ">
                         <div className="w-9 mx-auto text-5xl"> <ion-icon name="desktop-outline"></ion-icon></div>
-                        <p className="text-center text-[#4C4C95] mt-3">Service Name</p>
+                        <motion.p
+                            whileHover={{
+                                color: "#4C4C95"
+                            }}
+                            className="text-center text-[blue]  mt-3  cursor-pointer">Service Name</motion.p>
                         <p className="text-center text-sm text-black mt-5">Lorem ipsum dolor sit amet consectetur adipisicing elit.
                             Sed quo temporibus </p>
-                    </div>
-                    <div className="border w-[40%]  md:w-[25%] lg:w-[20%] bg-[#edf5f7] text-black rounded-3xl py-5">
+                    </motion.div>
+                    <motion.div
+                        whileHover={{
+                            scale: 1,
+                            border: "1px solid purple"
+                        }}
+                        //   transition = {{duration: 0.5}}
+                        className="border w-[40%] md:w-[25%] lg:w-[20%] bg-[#edf5f7] text-black rounded-3xl py-5 ">
                         <div className="w-9 mx-auto text-5xl"> <ion-icon name="desktop-outline"></ion-icon></div>
-                        <p className="text-center text-[#4C4C95] mt-3">Service Name</p>
+                        <motion.p
+                            whileHover={{
+                                color: "#4C4C95"
+                            }}
+                            className="text-center text-[blue]  mt-3  cursor-pointer">Service Name</motion.p>
                         <p className="text-center text-sm text-black mt-5">Lorem ipsum dolor sit amet consectetur adipisicing elit.
                             Sed quo temporibus </p>
-                    </div>
+                    </motion.div>
 
                 </div>
             </div>
@@ -68,7 +99,7 @@ function Services() {
                         vitae qui nihil commodi. Aliquam, at ab?</p>
                 </div>
                 <div className="w-[60%] md:w-[30%]">
-                    <img src={service} alt=""  />
+                    <img src={service} alt="" />
                 </div>
             </div>
 

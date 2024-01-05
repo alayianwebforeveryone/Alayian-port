@@ -3,12 +3,12 @@ import React from 'react'
 function Contact() {
     return (
         <div>
-            <div class="h-[300px] w-full bg-[#7da2ea] "
+            <div class="h-[300px] w-full bg-[#7da2ea]  pt-14 sm:pt-0"
              style={{
                 background: "linear-gradient(90deg, rgba(113,8,125,1) 0%, rgba(93,176,219,1) 56%)"
             }}
             >
-                <h2 class="text-center text-white text-4xl font-bold py-28">Contact us</h2>
+                <h2 class="text-center text-white text-3xl md:text-5xl font-bold py-28 ">Contact us</h2>
             </div>
             <div class="flex md:flex-row flex-col  justify-center md:gap-16 gap-8 items-center  py-9 bg-[#a4e1f7]">
                 <div class="w-[70%] md:w-[20%] bg-[#faf5fb]  py-3 shadow-xl rounded-xl">

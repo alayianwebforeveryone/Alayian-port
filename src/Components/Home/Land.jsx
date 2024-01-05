@@ -1,5 +1,6 @@
 import React from 'react'
 import bannImg from '../../Images/Bannerimg.jpg'
+import {motion} from 'framer-motion'
 
 function Home() {
 
@@ -11,16 +12,16 @@ function Home() {
                     background: "linear-gradient(90deg, rgba(113,8,125,1) 0%, rgba(93,176,219,1) 56%)"
                 }}
             >
-                <div className='text-left '>
+                <div className='text-left pt-48 sm:pt-0'>
                     <p className="text-white leading-10 w-26 ml-5 md:ml-20">Code, <br /> Create,<br /> Conquer:
                         <p className=" text-white ml-2  text-xl font-bold"> <br /> Journey into Web Development <br />
                             with Alayian Saeed
                         </p>
                     </p>
-                    <button
+                    <motion.button whileHover = {{scale: 1.051}} 
                         className="border text-lg text-white px-4 py-1 rounded-2xl bg-[hsl(294,72%,51%)] hover:text-black hover:bg-white  font-bold ml-7 mt-10 md:ml-20">See
                         More
-                    </button>
+                    </motion.button>
                 </div>
                 <div>
                     <img src={bannImg} alt="" className='md:h-[300px] md:w-[200xp] h-[200px] w-[300px] ' />
@@ -36,11 +37,17 @@ function Home() {
                     adipisicing elit. Quibusdam iusto voluptatem,
                     necessitatibus voluptate, repellat natus laudantium sint praesentium non ratione temporibus
                     eligendi veniam eaque consequatur! Libero sunt illo nulla necessitatibus!</p>
-                <div class=" text-sm rounded-2xl py-2 px-2  border md:rounded-3xl  border-2xl  md:w-[60%] w-[80%] flex justify-between mx-auto bg-[#101434]">
+                <motion.div 
+                       whileHover={{border: '2px solid purple',
+                        
+                    }}
+                  class=" text-sm rounded-2xl py-2 px-2  border md:rounded-3xl  border-2xl  md:w-[60%] w-[80%] flex justify-between mx-auto bg-[#101434]">
                     <input type="text" placeholder={"Enter your Emial Address"}
                         class="w-[70%] rounded-3xl bg-transparent outline-none text-white   md:text-lg " />
-                    <button class="md:px-4 md:py-3 bg-[#CECDDF] md:rounded-3xl rounded-xl">Get Started</button>
-                </div>
+                    <motion.button
+                      whileHover={{border: "2px solid gray"}}
+                    class="md:px-4 md:py-3 bg-[#CECDDF] md:rounded-3xl rounded-xl">Get Started</motion.button>
+                </motion.div>
             </div>
         </>
 
