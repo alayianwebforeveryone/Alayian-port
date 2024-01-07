@@ -1,6 +1,7 @@
 import React from 'react'
 import bannImg from '../../Images/Bannerimg.jpg'
 import {motion} from 'framer-motion'
+import Button from '../Button' 
 
 function Home() {
 
@@ -12,16 +13,13 @@ function Home() {
                     background: "linear-gradient(90deg, rgba(113,8,125,1) 0%, rgba(93,176,219,1) 56%)"
                 }}
             >
-                <div className='text-left pt-48 sm:pt-0'>
+                <div className='text-left pt-48 sm:pt-0 '>
                     <p className="text-white leading-10 w-26 ml-5 md:ml-20">Code, <br /> Create,<br /> Conquer:
                         <p className=" text-white ml-2  text-xl font-bold"> <br /> Journey into Web Development <br />
                             with Alayian Saeed
                         </p>
                     </p>
-                    <motion.button whileHover = {{scale: 1.051}} 
-                        className="border text-lg text-white px-4 py-1 rounded-2xl bg-[hsl(294,72%,51%)] hover:text-black hover:bg-white  font-bold ml-7 mt-10 md:ml-20">See
-                        More
-                    </motion.button>
+                    <Button >See more</Button>
                 </div>
                 <div>
                     <img src={bannImg} alt="" className='md:h-[300px] md:w-[200xp] h-[200px] w-[300px] ' />
