@@ -17,7 +17,7 @@ function Home() {
                 {/* ". . ."    */}
                     <p className="text-white leading-20 w-26 ml-5 md:ml-20">Innovate, <br /> Create,<br /> Captivate:
                         <p className=" text-white ml-2  text-xl font-bold"> <br /> Journey into Web Development <br />
-                            with <span className='font-bold text-5xl font-loboster text-indigo-200 px-2'>Alayian Saeed</span> 
+                            with <span className='font-bolder text-3xl md:text-5xl  text-indigo-200 px-2'>Alayian Saeed</span> 
                         </p>
                     </p>
                     <Button >See more</Button>

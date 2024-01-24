@@ -52,7 +52,7 @@ function About() {
 
 
           <Transition appear show={isOpen} as={Fragment}>
-            <Dialog as="div" className="relative z-10" onClose={closeModal}>
+            <Dialog as="div" className="relative z-10 " onClose={closeModal}>
               <Transition.Child
                 as={Fragment}
                 enter="ease-out duration-300"
@@ -62,7 +62,7 @@ function About() {
                 leaveFrom="opacity-100"
                 leaveTo="opacity-0"
               >
-                <div className="fixed inset-0 bg-black/90" />
+                <div className="fixed inset-0 bg-black/95" />
               </Transition.Child>
 
               <div className="fixed inset-0 overflow-y-auto">
@@ -80,7 +80,7 @@ function About() {
                     {/*//* Modal contect */}
                     
                     <Dialog.Panel className="w-full max-w-md transform overflow-hidden rounded-2xl bg-purple-300 p-2  align-middle shadow-xl transition-all">
-                    <div className="absolute right-2">
+                    <div className="absolute right-3">
                         <CustomButton
                           className="h-auto w-6"
                           onClick={closeModal}
