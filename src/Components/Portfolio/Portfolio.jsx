@@ -4,17 +4,13 @@ import portOne from '../../Images/portfolio1.png'
 import portTwo from '../../Images/portfolio2.png'
 import portThree from '../../Images/Portfolio3.png'
 import { motion } from 'framer-motion'
+import Title from '../Head of page/Title'
 
 function Portfolio() {
     return (
         <>
-            <div className="h-[300px] w-full bg-[#7da2ea]  pt-14 sm:pt-0 "
-                style={{
-                    background: "linear-gradient(90deg, rgba(113,8,125,1) 0%, rgba(93,176,219,1) 56%)"
-                }}
-            >
-                <h2 className="text-center text-white md:text-5xl text-3xl font-bold py-28">What we have done</h2>
-            </div>
+           <Title >What we have done ?</Title>
+                
             <div>
                 <Link to="https://alayianwebforeveryone.github.io/Topwritingservices/">
                     <motion.div

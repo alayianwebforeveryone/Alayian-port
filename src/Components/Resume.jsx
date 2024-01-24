@@ -1,8 +1,10 @@
 import React from 'react'
+import resume from  '../Images/resume.png'
+
 
 function Resume() {
     return (
-        <img src="" alt="" />
+        <img src= {resume} alt="cv" />
     )
 }
 

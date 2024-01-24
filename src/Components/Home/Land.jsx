@@ -14,9 +14,10 @@ function Home() {
                 }}
             >
                 <div className='text-left pt-48 sm:pt-0 '>
-                    <p className="text-white leading-10 w-26 ml-5 md:ml-20">Code, <br /> Create,<br /> Conquer:
+                {/* ". . ."    */}
+                    <p className="text-white leading-20 w-26 ml-5 md:ml-20">Innovate, <br /> Create,<br /> Captivate:
                         <p className=" text-white ml-2  text-xl font-bold"> <br /> Journey into Web Development <br />
-                            with Alayian Saeed
+                            with <span className='font-bold text-5xl font-loboster text-indigo-200 px-2'>Alayian Saeed</span> 
                         </p>
                     </p>
                     <Button >See more</Button>
@@ -29,12 +30,12 @@ function Home() {
             <div class="my-20 bg-[#eccff3] py-10"
 
             >
-                <p class="uppercase w-80 text-center mx-auto text-3xl font-bold text-[#101434] ">Ready to Boost your Business ?
+                <p class="uppercase w-90
+                 text-center mx-auto text-3xl font-bold text-[#101434] ">Ready to Boost your Business ?
                 </p>
-                <p class="w-[70%] md:w-[50%] my-10  text-center mx-auto">Lorem ipsum dolor sit amet consectetur
-                    adipisicing elit. Quibusdam iusto voluptatem,
-                    necessitatibus voluptate, repellat natus laudantium sint praesentium non ratione temporibus
-                    eligendi veniam eaque consequatur! Libero sunt illo nulla necessitatibus!</p>
+                <p class="w-[70%] md:w-[50%] my-10  text-center mx-auto">
+                In a rapidly evolving digital landscape, the key to success lies in staying ahead. Our tailored solutions are designed to propel your business to new heights, leveraging cutting-edge strategies and innovative technologies. Whether you're aiming to enhance your online presence, optimize operations, or reach a broader audience, we're here to navigate the digital realm with you.
+                </p>
                 <motion.div 
                        whileHover={{border: '2px solid purple',
                         

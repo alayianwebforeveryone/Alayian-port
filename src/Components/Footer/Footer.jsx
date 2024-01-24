@@ -9,10 +9,11 @@ function Footer() {
             background: "linear-gradient(90deg, rgba(93,176,219,1) 17%, rgba(179,93,219,1) 100%)"}}  
         >
             <div className='flex justify-center md:gap-20 py-10 md:flex-row flex-col items-center gap-10 '>
-                <div className="md:w-[20%] w-[60%]">
+                <div className="md:w-[30%] w-[60%]">
                     <p className="text-3xl  font-bold mb-5">Logo Name</p>
-                    <p className="text-justify text-white leading-6">Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Ea aliquam eos officia fugiat a enim iure nihil animi obcaecati iste?</p>
+                    <p className="text-justify text-white leading-6">
+                    Cultivating Innovation, Building Excellence. Welcome to a digital realm where creativity meets functionality. We don't just create websites; we craft digital experiences that resonate. Elevate your online presence with us – where every click tells a story, and every pixel paints a masterpiece.
+                    </p>
                 </div>
                 <div className="md:w-[10%]">
                     <p className="text-xl ">About</p>

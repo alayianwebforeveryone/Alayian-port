@@ -13,7 +13,7 @@ function Header() {
         if (icon === "menu-outline") {
 
             setIcon("close-outline")
-            setTopSpace("top-[10%] left-[0%] bg-[#cb8be4]  pb-2 w-[100%]   ")
+            setTopSpace("top-[10%] left-[0%] pb-2 w-[100%] ")
         }
         else {
             setTopSpace("top-[-1000%]")
@@ -48,7 +48,7 @@ function Header() {
                     >
                         <NavLink to="/">Home</NavLink>
                     </motion.li>
-                    <motion.li
+                    {/* <motion.li
                         whileHover={{
                            
                            
@@ -57,7 +57,7 @@ function Header() {
                         <NavLink to="/services">
                             Services
                         </NavLink>
-                    </motion.li>
+                    </motion.li> */}
                     <motion.li
                         whileHover={{
                             

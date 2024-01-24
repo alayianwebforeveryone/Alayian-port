@@ -1,49 +1,50 @@
 import React from 'react'
+import Title from '../Head of page/Title'
+import { Link } from 'react-router-dom'
+import linkedin from '../../Images/portfolio2.png'
 
 function Contact() {
     return (
         <div>
-            <div class="h-[300px] w-full bg-[#7da2ea]  pt-14 sm:pt-0"
-             style={{
-                background: "linear-gradient(90deg, rgba(113,8,125,1) 0%, rgba(93,176,219,1) 56%)"
-            }}
-            >
-                <h2 class="text-center text-white text-3xl md:text-5xl font-bold py-28 ">Contact us</h2>
-            </div>
+            <Title>Contact us</Title>
             <div class="flex md:flex-row flex-col  justify-center md:gap-16 gap-8 items-center  py-9 bg-[#a4e1f7]">
                 <div class="w-[70%] md:w-[20%] bg-[#faf5fb]  py-3 shadow-xl rounded-xl">
-                    <div class="w-9 mx-auto text-5xl"> <ion-icon name="desktop-outline"></ion-icon></div>
-                    <p class="text-center  mt-3">+92 346 8745333</p>
-                    <p class="text-center text-sm  mt-5">Monday to Friday 9:00 am to 6:pm </p>
-                </div>
+                    <div class="w-9 mx-auto text-5xl"> 
+                    <image src={linkedin} alt = "phone-logo"></image>
+                    </div>
+                    <p class="text-center  mt-3">+92 348 8759075</p>
+                    <p class="text-center text-sm  mt-2">Contact me any time </p>
+                </div> 
+                {/* Phone */}
                 <div class="w-[70%] md:w-[20%] bg-[#faf5fb]  py-3 shadow-xl rounded-xl">
                     <div class="w-9 mx-auto text-5xl"> <ion-icon name="desktop-outline"></ion-icon></div>
                     <p class="text-center  mt-3">alayiansaeed@gamil.com</p>
-                    <p class="text-center text-sm  mt-5">Contact me any time! </p>
+                    <p class="text-center text-sm  mt-2">Contact me any time! </p>
                 </div>
+                  {/* Email */}
                 <div class="w-[70%] md:w-[20%] bg-[#faf5fb]  py-3 shadow-xl rounded-xl">
                     <div class="w-9 mx-auto text-5xl"> <ion-icon name="desktop-outline"></ion-icon></div>
-                    <p class="text-center  mt-3">Location</p>
-                    <p class="text-center text-sm  mt-5">  23 Main Street
-                        Cityville, State
-                        Postal Code: 12345
-                        Country: United States</p>
+                    <p class="text-center  mt-3"></p>
+                    <p class="text-center text-sm  mt-5 border w-[50%] mx-auto rounded-xl py-2 hover:bg-slate-500 hover:text-white "> 
+                    <Link to ="https://www.linkedin.com/in/alayian-saeed-34287a219?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" >
+                    Linked profile
+                    </Link>
+                      
+                     </p>
                 </div>
+                  {/* Location */}
             </div>
             <div class="relative flex items-top justify-center min-h-screen dark:bg-gray-900 sm:items-center sm:pt-0 bg-[#220e48]">
                 <div class="max-w-6xl mx-auto sm:px-6 lg:px-8">
                     <div class="mt-8 overflow-hidden">
                         <div class="grid grid-cols-1 md:grid-cols-2">
                             <div class="p-6 mr-2 bg-gray-100 dark:bg-gray-800 sm:rounded-lg">
-                                <h1 class="text-4xl sm:text-5xl text-gray-800 dark:text-white font-extrabold tracking-tight">
+                                <h1 class="text-4xl sm:text-5xl text-gray-800 dark:text-white font-extrabold tracking-tight hover:underline">
                                     Get in touch
                                 </h1>
-                                <p class="w-[90%] mt-10">Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                                    Saepe nostrum non necessitatibus, soluta ab modi corporis
-                                    exercitationem similique beatae qui! Lorem ipsum dolor sit, amet
-                                    consectetur adipisicing elit. A error soluta ut ipsa, necessitatibus,
-                                    iure labore, assumenda sapiente illum distinctio debitis facilis at
-                                    deserunt magnam officia. Sed, harum beatae. Tempore!</p>
+                                <p class="w-[90%] mt-10">
+                                I'm passionate about crafting digital experiences that leave a lasting impact. Whether you're looking to bring your ideas to life, enhance your online presence, or optimize existing web solutions, I'm here to help. Let's discuss how we can collaborate to turn your vision into a seamlessly functional and visually stunning website. Reach out, and let's embark on a journey to elevate your online presence together."
+                                    </p>
 
                             </div>
 
