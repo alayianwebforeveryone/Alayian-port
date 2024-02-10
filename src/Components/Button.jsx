@@ -1,9 +1,9 @@
-import React from 'react'
 import {motion} from 'framer-motion'
 
 function CustomButton({
     type= "text",
-    className= 'py-2 px-2 mx-auto rounded-2xl  hover:bg-purple-100 hover:text-black hover:border hover:border-purple-700 bg-[#c465d5]   mt-9 text-white ',
+    className= "py-2 px-2 mx-auto rounded-2xl  hover:bg-purple-100 hover:text-black hover:border hover:border-purple-700 bg-[#c465d5]   mt-9 text-white",
+    
     ...props
 }) {
     return (

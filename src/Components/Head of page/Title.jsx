@@ -7,7 +7,7 @@ function Title({
 }) {
     return (
         <div className={`${className} `}>
-            <h1 className='text-center text-white md:text-5xl text-3xl font-bold py-28' {...Props}></h1>
+            <h1 className='text-center text-white md:text-3xl text-2xl font-bold py-28' {...Props}></h1>
         </div>
     )
 }

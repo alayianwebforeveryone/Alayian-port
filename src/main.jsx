@@ -15,7 +15,6 @@ import Portfolio from "./Components/Portfolio/Portfolio.jsx";
 // import Services from './Components/Services/Services.jsx';
 import Contact from "./Components/Contact/Contact.jsx";
 import About from "./Components/About/About.jsx";
-import Resume from "./Components/Resume.jsx";
 const router = createBrowserRouter(
   createRoutesFromElements(
     <Route path="" element={<App />}>
