@@ -1,11 +1,8 @@
-import React from "react";
 import { Link } from "react-router-dom";
-import portOne from "../../Images/portfolio3.png";
+import portOne from "../../Images/Portfolio3.png";
 import portTwo from "../../Images/portfolio2.png";
 import portThree from "../../Images/swmsport.png";
-import { motion } from "framer-motion";
 import Title from "../Head of page/Title";
-import CustomButton from "../Button";
 
 function Portfolio() {
   return (
