@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import logo from "../../Images/logo.png";
+import logo from "../../Images/My logo.png";
 
 function Footer() {
   return (
@@ -13,11 +13,11 @@ function Footer() {
         }}
       >
         <div className="md:w-[30%]  w-[60%]">
-        <Link className="my-6" to ="/">
-        <div className="w-10 my-6 ">
-          <img src={logo} alt="" className="bg-cover bg-center" />
-        </div>
-      </Link>
+          <Link className="my-6" to="/">
+            <div className="w-36 my-6 ">
+              <img src={logo} alt="" className="bg-cover bg-center w-[100%]" />
+            </div>
+          </Link>
           <p className="text-justify text-white leading-6">
             Cultivating Innovation, Building Excellence. Welcome to a digital
             realm where creativity meets functionality. We donot just create
@@ -26,7 +26,7 @@ function Footer() {
             pixel paints a masterpiece.
           </p>
         </div>
-      
+
         <div className="md:w-[25%]   text-center  w-[60%]">
           <p className="text-xl  headThree ">Contact</p>
           <p className="text-white text-left leading-6 md:pl-28 mt-5">
@@ -36,7 +36,9 @@ function Footer() {
         </div>
       </div>
       <div className=" text-white bgheader py-2">
-        <p className="text-center">All right reserved &copy; till 2024 </p>
+        <p className="text-center text-black">
+          All right reserved &copy; till 2024{" "}
+        </p>
       </div>
     </div>
   );

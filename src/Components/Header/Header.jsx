@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Link, NavLink } from "react-router-dom";
-import logo from "../../Images/logo.png";
+import logo from "../../Images/My logo.png";
 import { motion } from "framer-motion";
 
 function Header() {
@@ -26,9 +26,9 @@ function Header() {
         background: "linear-gradient(to right, #76017C, #226F87, #69BDEC)",
       }}
     >
-      <Link to ="/">
-        <div className="w-10  ">
-          <img src={logo} alt="" className="bg-cover bg-center" />
+      <Link to="/">
+        <div className="w-36 ">
+          <img src={logo} alt="" className="bg-cover bg-center w-full" />
         </div>
       </Link>
       <div className="sm:hidden mr-5 text-3xl" onClick={handleIcon}>
